@@ -60,5 +60,5 @@ Sets up a multi-branch CI/CD pipeline:
 ## Usage  
 1. Clone this repository:  
    ```bash  
-   git clone <repository-url>  
+   git clone https://github.com/Tarek-Ehab/NTI-DevOps-Final-Project.git  
    cd NTI-DevOps-Final-Project
