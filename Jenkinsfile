@@ -32,8 +32,8 @@ pipeline {
                 script {
                     echo "Building Docker images..."
                     sh '''
-                        docker build -t ahmed862/frontend frontend/.
-                        docker build -t ahmed862/backend backend/.
+                        docker build -t tarekehab/frontend frontend/.
+                        docker build -t tarekehab/backend backend/.
                     '''
                 }
             }
@@ -44,8 +44,8 @@ pipeline {
                 script {
                     echo "Pushing Docker images..."
                     sh '''
-                        docker push ahmed862/frontend
-                        docker push ahmed862/backend
+                        docker push tarekehab/frontend
+                        docker push tarekehab/backend
                     '''
                 }
             }
